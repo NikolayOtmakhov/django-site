@@ -21,7 +21,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = open("/var/www/SECRET_KEY.txt").readline().splitlines()[0]
-temp = '4tua0um*_4(lzuz($o@chs0rm9m)6_9#9_f$$xzp=x(3g6y5i1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
